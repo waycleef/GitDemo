@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F7B4262291F7606006D263C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5F7B4261291F7606006D263C /* .gitignore */; };
+		5F7B4264291F7744006D263C /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B4263291F7744006D263C /* Questions.swift */; };
 		5FDECA51291E7C7400AF8AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDECA50291E7C7400AF8AFD /* AppDelegate.swift */; };
 		5FDECA53291E7C7400AF8AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDECA52291E7C7400AF8AFD /* SceneDelegate.swift */; };
 		5FDECA55291E7C7400AF8AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDECA54291E7C7400AF8AFD /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F7B4261291F7606006D263C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5F7B4263291F7744006D263C /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		5FDECA4D291E7C7400AF8AFD /* PersonalQuiz_HW8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz_HW8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDECA50291E7C7400AF8AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FDECA52291E7C7400AF8AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +41,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F7B4265291F7755006D263C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5FDECA50291E7C7400AF8AFD /* AppDelegate.swift */,
+				5FDECA52291E7C7400AF8AFD /* SceneDelegate.swift */,
+				5FDECA5E291E7C7400AF8AFD /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5F7B4266291F776B006D263C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FDECA54291E7C7400AF8AFD /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5F7B4267291F7798006D263C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5FDECA56291E7C7400AF8AFD /* Main.storyboard */,
+				5FDECA5B291E7C7400AF8AFD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5F7B4268291F77B1006D263C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F7B4263291F7744006D263C /* Questions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F7B4269291F77C5006D263C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FDECA59291E7C7400AF8AFD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		5FDECA44291E7C7400AF8AFD = {
 			isa = PBXGroup;
 			children = (
+				5F7B4261291F7606006D263C /* .gitignore */,
 				5FDECA4F291E7C7400AF8AFD /* PersonalQuiz_HW8 */,
 				5FDECA4E291E7C7400AF8AFD /* Products */,
 			);
@@ -56,13 +104,11 @@
 		5FDECA4F291E7C7400AF8AFD /* PersonalQuiz_HW8 */ = {
 			isa = PBXGroup;
 			children = (
-				5FDECA50291E7C7400AF8AFD /* AppDelegate.swift */,
-				5FDECA52291E7C7400AF8AFD /* SceneDelegate.swift */,
-				5FDECA54291E7C7400AF8AFD /* ViewController.swift */,
-				5FDECA56291E7C7400AF8AFD /* Main.storyboard */,
-				5FDECA59291E7C7400AF8AFD /* Assets.xcassets */,
-				5FDECA5B291E7C7400AF8AFD /* LaunchScreen.storyboard */,
-				5FDECA5E291E7C7400AF8AFD /* Info.plist */,
+				5F7B4265291F7755006D263C /* App */,
+				5F7B4266291F776B006D263C /* ViewControllers */,
+				5F7B4268291F77B1006D263C /* Models */,
+				5F7B4267291F7798006D263C /* Storyboards */,
+				5F7B4269291F77C5006D263C /* Resources */,
 			);
 			path = PersonalQuiz_HW8;
 			sourceTree = "<group>";
@@ -125,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7B4262291F7606006D263C /* .gitignore in Resources */,
 				5FDECA5D291E7C7400AF8AFD /* LaunchScreen.storyboard in Resources */,
 				5FDECA5A291E7C7400AF8AFD /* Assets.xcassets in Resources */,
 				5FDECA58291E7C7400AF8AFD /* Main.storyboard in Resources */,
@@ -139,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FDECA55291E7C7400AF8AFD /* ViewController.swift in Sources */,
+				5F7B4264291F7744006D263C /* Questions.swift in Sources */,
 				5FDECA51291E7C7400AF8AFD /* AppDelegate.swift in Sources */,
 				5FDECA53291E7C7400AF8AFD /* SceneDelegate.swift in Sources */,
 			);
@@ -289,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4RJ3J5RA5L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz_HW8/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz_HW8/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,7 +368,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4RJ3J5RA5L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz_HW8/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz_HW8/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
