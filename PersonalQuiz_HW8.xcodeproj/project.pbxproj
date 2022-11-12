@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		5F7B4262291F7606006D263C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5F7B4261291F7606006D263C /* .gitignore */; };
 		5F7B4264291F7744006D263C /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B4263291F7744006D263C /* Questions.swift */; };
+		5F7B426B291F7EE6006D263C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B426A291F7EE6006D263C /* ResultViewController.swift */; };
 		5FDECA51291E7C7400AF8AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDECA50291E7C7400AF8AFD /* AppDelegate.swift */; };
 		5FDECA53291E7C7400AF8AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDECA52291E7C7400AF8AFD /* SceneDelegate.swift */; };
-		5FDECA55291E7C7400AF8AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDECA54291E7C7400AF8AFD /* ViewController.swift */; };
+		5FDECA55291E7C7400AF8AFD /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDECA54291E7C7400AF8AFD /* QuestionsViewController.swift */; };
 		5FDECA58291E7C7400AF8AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDECA56291E7C7400AF8AFD /* Main.storyboard */; };
 		5FDECA5A291E7C7400AF8AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDECA59291E7C7400AF8AFD /* Assets.xcassets */; };
 		5FDECA5D291E7C7400AF8AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDECA5B291E7C7400AF8AFD /* LaunchScreen.storyboard */; };
@@ -20,10 +21,11 @@
 /* Begin PBXFileReference section */
 		5F7B4261291F7606006D263C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5F7B4263291F7744006D263C /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		5F7B426A291F7EE6006D263C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		5FDECA4D291E7C7400AF8AFD /* PersonalQuiz_HW8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz_HW8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDECA50291E7C7400AF8AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FDECA52291E7C7400AF8AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5FDECA54291E7C7400AF8AFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FDECA54291E7C7400AF8AFD /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		5FDECA57291E7C7400AF8AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FDECA59291E7C7400AF8AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FDECA5C291E7C7400AF8AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,7 +56,8 @@
 		5F7B4266291F776B006D263C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				5FDECA54291E7C7400AF8AFD /* ViewController.swift */,
+				5FDECA54291E7C7400AF8AFD /* QuestionsViewController.swift */,
+				5F7B426A291F7EE6006D263C /* ResultViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -185,7 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDECA55291E7C7400AF8AFD /* ViewController.swift in Sources */,
+				5F7B426B291F7EE6006D263C /* ResultViewController.swift in Sources */,
+				5FDECA55291E7C7400AF8AFD /* QuestionsViewController.swift in Sources */,
 				5F7B4264291F7744006D263C /* Questions.swift in Sources */,
 				5FDECA51291E7C7400AF8AFD /* AppDelegate.swift in Sources */,
 				5FDECA53291E7C7400AF8AFD /* SceneDelegate.swift in Sources */,
