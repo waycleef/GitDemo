@@ -152,7 +152,7 @@ extension QuestionsViewController {
         rangedStackView.isHidden = false
         
         rangedLabels.first?.text = answers.first?.title
-        rangedLabels.last?.text = answers.first?.title
+        rangedLabels.last?.text = answers.last?.title
     }
 }
 
