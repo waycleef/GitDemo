@@ -8,7 +8,7 @@
 struct Questions {
     let tittle: String
     let responseType: ResponseType
-    let answer: [Answer]
+    let answers: [Answer]
 }
 
 enum ResponseType {
@@ -49,7 +49,7 @@ extension Questions {
             Questions(
                 tittle: "Какую пищу предпочитаете",
                 responseType: .single,
-                answer: [
+                answers: [
                     Answer(title: "Стейк", animal: .dog),
                     Answer(title: "Рыба", animal: .cat),
                     Answer(title: "Морковь", animal: .rabbit),
@@ -59,7 +59,7 @@ extension Questions {
             Questions(
                 tittle: "Что вам нравится больше?",
                 responseType: .multiple,
-                answer: [
+                answers: [
                     Answer(title: "Плавать", animal: .dog),
                     Answer(title: "Спать", animal: .cat),
                     Answer(title: "Обниматься", animal: .rabbit),
@@ -69,7 +69,7 @@ extension Questions {
             Questions(
                 tittle: "Любите ли вы поездки на машине?",
                 responseType: .range,
-                answer: [
+                answers: [
                     Answer(title: "Ненавижу", animal: .cat),
                     Answer(title: "Нервничаю", animal: .rabbit),
                     Answer(title: "Не замечаю", animal: .turtle),

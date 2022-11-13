@@ -260,13 +260,7 @@
                             <constraint firstItem="CZF-bY-NbN" firstAttribute="leading" secondItem="kfr-qW-kDd" secondAttribute="leading" constant="16" id="ofe-DD-QBA"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Вопрос №" id="2Ku-uR-jRf">
-                        <barButtonItem key="rightBarButtonItem" title="=&gt; 3" id="nce-rp-b4K">
-                            <connections>
-                                <segue destination="R2h-At-MhD" kind="show" id="EgG-3s-16E"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Вопрос №" id="2Ku-uR-jRf"/>
                     <connections>
                         <outlet property="multipleStackView" destination="ada-zS-692" id="aAD-gI-4rE"/>
                         <outlet property="questionLabel" destination="9so-qL-tfv" id="fGt-Oc-wgj"/>
@@ -288,7 +282,7 @@
                         <outletCollection property="multipleSwitches" destination="9uL-Zg-Vdf" collectionClass="NSMutableArray" id="mWV-vM-jy7"/>
                         <outletCollection property="rangedLabels" destination="0pv-Nv-6QJ" collectionClass="NSMutableArray" id="VCy-Jg-W2w"/>
                         <outletCollection property="rangedLabels" destination="AmI-Uc-wpv" collectionClass="NSMutableArray" id="gcW-C8-gu1"/>
-                        <segue destination="R2h-At-MhD" kind="show" identifier="showReslult" id="nj2-GY-zcB"/>
+                        <segue destination="R2h-At-MhD" kind="show" identifier="showResult" id="nj2-GY-zcB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KQj-xB-bca" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -336,6 +330,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resultAnswerLabel" destination="6hc-qd-6g4" id="njH-Y5-fSf"/>
+                        <outlet property="resultDefinitionLabel" destination="28E-UD-gt6" id="MZA-fr-xzO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="khk-Uc-WsJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -360,9 +358,6 @@
             <point key="canvasLocation" x="793" y="3"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="nj2-GY-zcB"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
