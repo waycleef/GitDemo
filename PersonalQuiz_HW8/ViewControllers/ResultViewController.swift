@@ -8,19 +8,15 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    
-    
-    // 1. Избавиться от кнопки возврата назад на экране результатов
-    // 2. Передать массив с ответами на экран с результатами
-    // 3. Определить наиболее часто встречающийся тип животного
-    // 4. Отобразить результаты в соответствии с этим животным
-    
+    //MARK: - IBOutlets
     @IBOutlet var resultAnswerLabel: UILabel!
     @IBOutlet var resultDefinitionLabel: UILabel!
-    // использовать функции высшего порядка map и sorted
-    // отдельный метод для поиска результата
+
+    //MARK: - Properties
     var results: [Answer]!
 
+    
+    //MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.setHidesBackButton(true, animated: true)
@@ -30,7 +26,7 @@ class ResultViewController: UIViewController {
     }
     
     
-
+    //MARK: - IBActions
     @IBAction func doneButtenPressed(_ sender: UIBarButtonItem) {
         navigationController?.dismiss(animated: true)
         
@@ -39,6 +35,8 @@ class ResultViewController: UIViewController {
 
 }
 
+
+//MARK: - Private Methods
 extension ResultViewController {
     private func calculateResult() {
         var frequencyOfAnswer: [Animal: Int] = [:]
